@@ -1438,5 +1438,6 @@ footer {
 	
 	.hero-video-text {
 		font-size: 18px !important;
+		padding: 0 20px;
 	}
 }
