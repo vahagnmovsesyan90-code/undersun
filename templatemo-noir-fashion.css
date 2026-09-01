@@ -1384,7 +1384,7 @@ footer {
 /* Full-screen background video (hero) */
 .hero-bg-video {
 	position: absolute;
-	top: 100%;
+	top: 65%;
 	left: 50%;
 	min-width: 100%;
 	min-height: 100%;
