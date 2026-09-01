@@ -65,6 +65,8 @@ function changeLanguage(lang) {
     setText("visionText", translations[lang].visionText, true);
 
     setText("address", translations[lang].address);
+	
+    setText("followUs", translations[lang].followUs);
 }
 
 // load saved language on page open
