@@ -71,6 +71,6 @@ function changeLanguage(lang) {
 
 // load saved language on page open
 document.addEventListener("DOMContentLoaded", () => {
-    const savedLanguage = localStorage.getItem("selectedLanguage") || "hy";
+    const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
     changeLanguage(savedLanguage);
 });
