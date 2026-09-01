@@ -1430,3 +1430,13 @@ footer {
 		padding: 0 20px;
 	}
 }
+
+@media (max-width: 576px) {
+	.hero-video-title {
+		font-size: 22px;
+	}
+	
+	.hero-video-text {
+		font-size: 18px !important;
+	}
+}
