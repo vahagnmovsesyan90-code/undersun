@@ -9,9 +9,9 @@ function changeLanguage(lang) {
     localStorage.setItem("selectedLanguage", lang);
 
     const languageNames = {
-        en: "Eng",
-        hy: "Հայ",
-        ru: "Рус",
+        en: "EN",
+		hy: "HY",
+		ru: "RU",
     };
 
     // helper function
@@ -65,8 +65,6 @@ function changeLanguage(lang) {
     setText("visionText", translations[lang].visionText, true);
 
     setText("address", translations[lang].address);
-	
-    setText("followUs", translations[lang].followUs);
 }
 
 // load saved language on page open
